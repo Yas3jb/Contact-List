@@ -5,9 +5,9 @@ export default function ContactRow({ contact, setSelectedContactId }) {
         setSelectedContactId(contact.id);
       }}
     >
-      <td>{contact.name}</td>
-      <td>{contact.email}</td>
-      <td>{contact.phone}</td>
+      <td className="list">{contact.name}</td>
+      <td className="list">{contact.email}</td>
+      <td className="list">{contact.phone}</td>
     </tr>
   );
 }
