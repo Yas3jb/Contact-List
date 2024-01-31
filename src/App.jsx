@@ -2,7 +2,7 @@ import "./App.css";
 import ContactList from "./components/ContactList";
 import { useState } from "react";
 import SelectedContact from "./components/SelectedContact";
-import "./Style.css";
+import "./style.css";
 
 function App() {
   const [selectedContactId, setSelectedContactId] = useState(null);
