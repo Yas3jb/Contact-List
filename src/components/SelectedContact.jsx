@@ -20,13 +20,13 @@ const SelectedContact = ({ selectedContactId, setSelectedContactId }) => {
 
   console.log(contact);
   return (
-    <table className="table">
+    <table>
       <thead>
         <tr>
           <th colSpan="3">Contact List</th>
         </tr>
       </thead>
-      <tbody>{/*TODO */}</tbody>
+      <tbody>{selectedContactId}</tbody>
       <button
         onClick={() => {
           setSelectedContactId(null);
